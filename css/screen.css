@@ -865,7 +865,7 @@ a:focus {
     bottom: 0;
     left: 0;
     background-color: #202024;
-    will-change: opacity;
+    
     opacity: 0;
     transition: opacity .25s ease;
 }
@@ -881,7 +881,6 @@ a:focus {
     width: 100vw;
     background-color: #fff;
 
-    will-change: transform;
     transform: translateX(-100%);
     transition: transform .25s ease;
 }
